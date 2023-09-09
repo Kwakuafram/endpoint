@@ -8,7 +8,7 @@ app.get('/get_info', (req, res) => {
   const current_day = new Date().toLocaleDateString('en-US', { weekday: 'long' });
   const utc_time = new Date().toISOString();
   const track = 'backend';
-  const github_file_url = 'https://github.com/Kwakuafram/endpoint';
+  const github_file_url = 'https://github.com/Kwakuafram/endpoint/blob/main/app.js';
   const github_repo_url = 'https://github.com/Kwakuafram';
   const status_code = 200;
 
